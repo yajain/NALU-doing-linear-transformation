@@ -10,7 +10,8 @@ This gives the solutions as (6-5) + (4-3) + (2-1) which comes to 1 + 1 + 1 = 3.
 Suppose there is a list of 4 numbers given as [1,2,3,4].  
 This gives solution as 1*2*3*4 which gives a result as 24.  
 
-data folder has three files - data6.csv, data8.csv, data10.csv are files that contain the training and testing set.  
+Data folder has three files - data6.csv, data8.csv, data10.csv are files that contain the training and testing set.  
+P.S. - data6.csv, data8.csv and data10.csv are big files
 NALU_LT.py does the first task  
 NALU_MUL.py does the second task  
 Make sure that data6, data8, data10 are in the same folder from where you are running the programs else you can edit and insert
