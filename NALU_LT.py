@@ -138,6 +138,6 @@ for al in array_lengths:
             print("outrange accuracy", ":", count/10,'%')
 
             predictions = np.asarray(predictions).reshape(1000,1)
-            testing_cost_outrange = (1/50000)*np.dot((predictions - Y_test2).T, (predictions - Y_test2))
+            testing_cost_outrange = (1/1000)*np.dot((predictions - Y_test2).T, (predictions - Y_test2))
             print("The cost for testing set in a different range from the training set", float(testing_cost_outrange))
         sess.close()
