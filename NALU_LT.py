@@ -124,7 +124,7 @@ for al in array_lengths:
             print("inrange accuracy", ":", count/10,'%')
 
             predictions = np.asarray(predictions).reshape(1000,1)
-            testing_cost_inrange = (1/50000)*np.dot((predictions - Y_test1).T, (predictions - Y_test1))
+            testing_cost_inrange = (1/1000)*np.dot((predictions - Y_test1).T, (predictions - Y_test1))
             print("The cost for testing set of the same range as the training set:", float(testing_cost_inrange))
 
 
